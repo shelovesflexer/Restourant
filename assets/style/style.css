@@ -441,3 +441,75 @@ main {
 .chefs-all:hover {
     background-color: var(--green);
 }
+
+
+/* CLIENTS */
+
+.clients {
+    background-color: rgba(208, 204, 199, 0.1);
+    padding: 71px 0px 99px 0px;
+}
+
+.clients-inner {
+    background-image: url(../images/bg-clients.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+.clients-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 200%;
+    font-weight: 700;
+    margin-bottom: 57px;
+
+    color: var(--black);
+}
+
+.clients-about-img {
+    margin-bottom: 41px;
+}
+
+.clients-about-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+
+    color: var(--black);
+}
+
+.clients-about-text {
+    color: #5C4529;
+    font-size: 20px;
+    line-height: 200%;
+    margin-bottom: 65px;
+}
+
+.clients-about-inner {
+    position: relative;
+    width: 524px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clients-about-inner p {
+    color: #5C4529;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+#dot1 {
+    position: absolute;
+    top: -45px;
+    left: -44px;
+    transform: rotate(180deg);
+}
+
+#dot2 {
+    position: absolute;
+    bottom: -45px;
+    right: -44px;
+}
