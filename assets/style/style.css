@@ -382,3 +382,62 @@ main {
     color: #fff;
     text-decoration: none;
 }
+
+
+/* CHEFS */
+
+
+.chefs {
+    padding-top: 175px;
+    padding-bottom: 271px;
+    text-align: center;
+}
+
+.chefs h2 {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 200%;
+    font-weight: 700;
+
+    margin-bottom: 135px;
+    text-align: center;
+}
+
+.chefs-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.chef-item {
+    text-align: center;
+}
+
+.chef-item h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.chef-item p {
+    color: #A08D76;
+    line-height: 200%;
+}
+
+.chefs-all {
+    background-color: var(--orange);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 78px;
+    transition: background-color .4s ease;
+
+    border-radius: 162px;
+}
+
+.chefs-all:hover {
+    background-color: var(--green);
+}
