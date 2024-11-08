@@ -208,3 +208,121 @@ main {
 .welcome-inner a:hover {
     transform: scale(1.1);
 }
+
+
+
+/* MENU */
+
+.menu {
+    padding-top: 164px;
+    padding-bottom: 201px;
+}
+
+.menu h2 {
+    font-family: "Tinos", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 200%;
+    color: var(--black);
+    margin-bottom: 60px;
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 60px;
+}
+
+.menu-buttons a {
+    background-color: rgba(208,204,199, 0.1);
+    color: var(--black);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 17px 64px;
+    border-radius: 162px;
+
+    transition: background-color .3s ease;
+}
+
+.menu-buttons a:hover {
+    background-color: var(--orange);
+}
+
+.menu-buttons .checked {
+    background-color: var(--black);
+    color: #fff;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 88px;
+}
+
+.menu-item {
+    width: 32%;
+    background-color: rgba(208,204,199, 0.1);
+    border-radius: 70px;
+    text-align: center;
+    padding: 35px 29px;
+    margin-bottom: 40px;
+}
+
+.menu-item h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+    margin-bottom: 5px;
+}
+
+.menu-item__raiting {
+    margin-bottom: 15px;
+}
+
+.menu-item__raiting img {
+    margin-right: 10px;
+}
+
+.menu-item__raiting img:last-of-type {
+    margin-right: 0px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    line-height: 200%;
+    color: #59442B;
+    margin-bottom: 30px;
+}
+
+.menu-item__last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item__last-price {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.menu-item__last a {
+    background-color: var(--orange);
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 36px;
+    border-radius: 162px;
+    font-size: 16px;
+
+    transition: background-color .3s ease;
+}
+
+.menu-item__last a:hover {
+    background-color: var(--green);
+}
+
+
