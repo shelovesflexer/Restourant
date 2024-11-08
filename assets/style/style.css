@@ -30,6 +30,7 @@ h1, h2, h3, h4, p {
 
 /* HEADER */
 
+
 header {
     margin-top: 51px;
 }
@@ -86,8 +87,8 @@ nav a.checked {
 }
 
 
-
 /* MAIN */
+
 
 main {
     margin-top: 166px;
@@ -155,4 +156,55 @@ main {
 
 .main-content__buttons a:hover {
     transform: scale(1.05);
+}
+
+
+/* WELCOME */
+
+
+.welcome {
+    background-color: rgba(63, 198, 110, 0.1);
+    padding-top: 147px;
+    padding-bottom: 132px;
+}
+
+.welcome-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-inner h2 {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    line-height: 110%;
+    font-size: 80px;
+    margin-bottom: 60px;
+
+    color: var(--black);
+}
+
+.welcome-inner h2 span {
+    color: var(--orange);
+} 
+
+.welcome-inner p {
+    color: #5C4529;
+    line-height: 200%;
+    margin-bottom: 122px;
+}
+
+.welcome-inner a {
+    background-color: var(--orange);
+    color: #fff;
+    padding: 17px 45px;
+    border-radius: 162px;
+    text-decoration: none;
+    display: inline-block;
+
+    transition: transform .3s ease;
+}
+
+.welcome-inner a:hover {
+    transform: scale(1.1);
 }
