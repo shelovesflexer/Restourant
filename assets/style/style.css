@@ -97,7 +97,6 @@ main {
 .main-content {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .main-content_about {
@@ -332,7 +331,7 @@ main {
 .reserve {
     padding-top: 113px;
     padding-bottom: 39px;
-    background-color: rgb(255, 244, 231, 0.4);
+    background-color: rgba(255, 244, 231, 0.4);
 }
 
 .reserve .container {
@@ -360,27 +359,32 @@ main {
     font-weight: 700;
     line-height: 110%;
     margin-bottom: 50px;
-    color: var(--black);
+    color: #000; 
 }
 
 .reserve-right h2 span {
-    color: var(--orange);
+    color: var(--orange); 
 }
 
 .reserve-right p {
     font-size: 20px;
     line-height: 220%;
     color: #5C4529;
-
     margin-bottom: 132px;
 }
 
 .reserve-right a {
+    display: inline-block;
     padding: 17px 55px;
     border-radius: 162px;
-    background-color: var(--orange);
+    background-color:var(--orange);
     color: #fff;
     text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.reserve-right a:hover {
+    transform: scale(1.1);
 }
 
 
@@ -445,13 +449,13 @@ main {
 
 /* CLIENTS */
 
+
 .clients {
     background-color: rgba(208, 204, 199, 0.1);
     padding: 71px 0px 99px 0px;
 }
 
 .clients-inner {
-    background-image: url(../images/bg-clients.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -513,3 +517,111 @@ main {
     bottom: -45px;
     right: -44px;
 }
+
+
+/* SCHEDULE */
+
+
+.schedule {
+    position: relative;
+    width: 1150px;
+    height: 588px;
+    margin: 238px auto;
+    padding: 0 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.schedule-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(95%);
+    z-index: 1;
+}
+
+.schedule-container {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.schedule-title {
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+.schedule-subtitle {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.schedule-info {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 5px;
+    width: 100%; 
+    text-align: center; 
+}
+
+.schedule-info:last-of-type {
+    text-align: right;
+    margin: 0;
+    width: 100%;
+    padding-right: 250px;
+}
+
+.schedule-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 17px 55px;
+    border-radius: 162px;
+    background-color:var(--orange);
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.order-button {
+    background-color: var(--orange);
+}
+
+.order-button:hover {
+    transform: scale(1.05);
+}
+
+.reservation-button {
+    background-color: #fff;
+    color: var(--black) !important;
+}
+
+.reservation-button:hover {
+    transform: scale(1.05);
+}
+
+
