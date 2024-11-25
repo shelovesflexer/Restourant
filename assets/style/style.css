@@ -631,24 +631,24 @@ main {
 .footer {
     background-color: #311F09;
     color: #fff;
-    width: 100%; /* Ширина на весь екран */
+    width: 100%;
     height: 691px;
-    padding: 0 80px; /* Відступи зліва та справа */
-    box-sizing: border-box; /* Увімкнути відступи у ширину */
-    font-family: 'Poppins', sans-serif; /* Встановлюємо шрифт Poppins */
+    padding: 0 80px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    gap: 66px; /* Відстань між колонками */
-    max-width: 1280px; /* Максимальна ширина для центрування */
-    margin: 0 auto; /* Центрування контейнера */
+    gap: 66px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .footer-left {
-    flex: 1; /* Автоматичне вирівнювання ширини */
-    max-width: 352px; /* Обмеження ширини колонки */
+    flex: 1;
+    max-width: 352px;
     text-align: left;
     padding-top: 149px;
 }
@@ -682,43 +682,43 @@ main {
 }
 
 .footer-contact {
-    width: 280px; /* Ширина контактної колонки */
-    height: 247px; /* Висота контактної колонки */
-    margin-bottom: 15px; /* Відстань знизу */
+    width: 280px;
+    height: 247px;
+    margin-bottom: 15px;
 }
 
 .footer-contact address {
-    width: 280px; /* Ширина тексту адреси */
-    height: 62px; /* Висота тексту адреси */
-    line-height: 1.5; /* Відстань між рядками */
-    font-style: normal; /* Відключення курсива */
+    width: 280px;
+    height: 62px;
+    line-height: 1.5;
+    font-style: normal;
 }
 
 .footer-contact address a {
     display: block;
-    margin-bottom: 15px; /* Відстань між елементами */
+    margin-bottom: 15px;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-contact a {
-    margin-bottom: 15px; /* Відстань між елементами */
+    margin-bottom: 15px;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-contact a:hover {
-    color: var(--green); /* Кольорова зміна при наведенні */
+    color: var(--green);
 }
 
 .footer-links h4,
 .footer-contact h4 {
-    color: var(--orange); /* Колір змінної --orange */
-    margin-bottom: 25px; /* Відстань знизу до початку списку */
+    color: var(--orange);
+    margin-bottom: 25px;
     font-size: 25px;
-    font-family: 'Poppins', sans-serif; /* Шрифт для заголовка */
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-links ul,
@@ -730,7 +730,7 @@ main {
 
 .footer-links ul li,
 .footer-contact ul li {
-    margin-bottom: 15px; /* Відстань між елементами */
+    margin-bottom: 15px;
 }
 
 .footer-links ul li a,
